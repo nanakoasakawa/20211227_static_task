@@ -66,7 +66,7 @@
 }
 
 .news {
-  margin: 5%;
+  margin: 5% 0;
   color: #c71585;
   font-family: "Indie Flower", cursive;
   line-height: normal;
@@ -109,10 +109,8 @@ dd {
 /* About */
 .about {
   background-color: #ebebeb;
-  width: 80%;
-  height: 30%;
+  margin: 100px 0;
   padding: 80px 80px;
-  margin: 200px 80px;
 }
 
 .about__content-ttl {
@@ -130,33 +128,40 @@ dd {
   line-height: normal;
 }
 
-.about__content{
+.about__content {
   display: flex;
-  justify-content: space-around;
+  margin: 40px 0;
 }
 
-.about2{
-  color:  #696969;
+.about__content2 {
+  margin-left: 50px;
+}
+
+.about2 {
+  color: #696969;
   margin-top: 30px;
-  margin-left: 60px;
+  margin-left: 150px;
 }
 
-.about3{
-  color:  #696969;
+.about3 {
+  color: #696969;
   margin-top: 40px;
-  margin-left: 60px;
+  margin-left: 150px;
+}
+
+.about__img {
+  text-align: center;
 }
 
 .about__img img {
-  margin-top: 30px;
-  margin-left: 350px;
   width: 50%;
   height: 90%;
+  margin-left: 200px;
 }
 
 /* Service */
-.service_1{
-  margin-left: 330px;
+.service_1 {
+  margin-left: 340px;
 }
 
 .service_title {
@@ -191,11 +196,11 @@ dd {
   padding: 30px 60px;
 }
 
-.box1_0{
+.box1_0 {
   text-align: center;
 }
 
-.service_img1{
+.service_img1 {
   width: 60%;
   height: 60%;
   margin-left: 60px;
@@ -216,8 +221,9 @@ dd {
   padding: 40px 15px;
   display: flex;
 }
+
 /* Blog */
-.blog{
+.blog {
   background-color: #ebebeb;
   padding: 80px 80px;
   margin: 180px 80px;
@@ -227,8 +233,8 @@ dd {
 .blog_title {
   font-family: "Indie Flower", cursive;
   color: #c71585;
-  padding: 20px 40px;
-  margin: 15px 40px;
+  padding: 20px 15px;
+  margin: 15px 35px;
 }
 
 .blog_title2 {
@@ -239,7 +245,7 @@ dd {
   line-height: normal;
 }
 
-.Blog__item{
+.Blog__item {
   display: flex;
   justify-content: space-around;
 }
@@ -255,7 +261,7 @@ dd {
 
 .card__img img {
   width: 100%;
-  border-radius: 25px 25px 0 0 ;
+  border-radius: 25px 25px 0 0;
 }
 
 .card__cat {
@@ -266,7 +272,7 @@ dd {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 25px 0 0 0 ;
+  border-radius: 25px 0 0 0;
 }
 
 .card__content {
@@ -277,19 +283,19 @@ dd {
   font-size: 18px;
   margin-bottom: 30px;
   font-weight: 400;
-  color:  #696969;
+  color: #696969;
   font-weight: bold;
   text-align: left;
 }
 
 .tag {
   position: relative;
-  }
+}
 
 .card__date {
   position: absolute;
   display: inline-block;
-  color:  #696969;
+  color: #696969;
 }
 
 .card__tag {
@@ -304,20 +310,20 @@ dd {
   margin-top: 10px;
   padding: 15px 20px;
   border-radius: 25px;
-  color:#c71585;
+  color: #c71585;
   background-color: white;
-  border: solid 2px #c71585 ;
+  border: solid 2px #c71585;
   width: 10%;
   text-align: center;
 }
 
 /* Company */
 
-table{
+table {
   margin: auto;
 }
 
-.company2{
+.company2 {
   margin-left: 220px;
 }
 
@@ -351,17 +357,17 @@ table th {
 }
 
 /* Link */
-.link{
+.link {
   display: flex;
   text-align: center;
   margin: 5% 5%;
 }
 
-.link_recruit{
+.link_recruit {
   position: relative;
 }
 
-.recruit{
+.recruit {
   position: absolute;
   color: white;
   font-size: 30px;
@@ -369,15 +375,15 @@ table th {
   left: 40%;
 }
 
-.link_recruit img{
+.link_recruit img {
   width: 100%;
 }
 
-.link_interview{
+.link_interview {
   position: relative;
 }
 
-.interview{
+.interview {
   position: absolute;
   color: white;
   font-size: 30px;
@@ -385,12 +391,12 @@ table th {
   left: 40%;
 }
 
-.link_interview img{
+.link_interview img {
   width: 100%;
 }
 
 /* Link */
-.info{
+.info {
   text-align: center;
   color: #696969;
   font-weight: bold;
@@ -411,18 +417,18 @@ table th {
   padding: 10px 20px;
   border-radius: 25px;
   text-decoration: none;
-  color: #FFF;
-  background: linear-gradient(90deg,#c7158680,#d81691);
-  box-shadow: 0 5px 5px  #c7158680;
+  color: #fff;
+  background: linear-gradient(90deg, #c7158680, #d81691);
+  box-shadow: 0 7px 0 #c7158641;
 }
 
-.info_button img{
+.info_button img {
   width: 30px;
   height: 20px;
 }
 
-footer{
-  background-color:#dedede;
+footer {
+  background-color: #dedede;
   padding: 20px;
   color: #696969;
   margin: 0 20px;
