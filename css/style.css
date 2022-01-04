@@ -226,8 +226,7 @@ dd {
 .blog {
   background-color: #ebebeb;
   padding: 80px 80px;
-  margin: 180px 80px;
-  width: 80%;
+  margin: 180px 0;
 }
 
 .blog_title {
@@ -359,12 +358,19 @@ table th {
 /* Link */
 .link {
   display: flex;
-  text-align: center;
-  margin: 5% 5%;
+  padding: 0;
+  margin: 5% 0;
 }
 
 .link_recruit {
   position: relative;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.link_recruit img {
+  width: 100%;
+  margin: 0;
 }
 
 .recruit {
@@ -375,12 +381,15 @@ table th {
   left: 40%;
 }
 
-.link_recruit img {
-  width: 100%;
-}
-
 .link_interview {
   position: relative;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.link_interview img {
+  width: 100%;
+  margin: 0;
 }
 
 .interview {
@@ -391,11 +400,7 @@ table th {
   left: 40%;
 }
 
-.link_interview img {
-  width: 100%;
-}
-
-/* Link */
+/* info */
 .info {
   text-align: center;
   color: #696969;
@@ -431,6 +436,6 @@ footer {
   background-color: #dedede;
   padding: 20px;
   color: #696969;
-  margin: 0 20px;
+  margin: 0 0;
   text-align: center;
 }
